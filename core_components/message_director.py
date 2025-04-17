@@ -75,20 +75,16 @@ import select
 import struct
 import asyncio
 
-from panda3d.core import Datagram, DatagramIterator
+#from panda3d.core import Datagram, DatagramIterator
 from . import msgTypes
 from core_components import network_manager
 from core_components.faithful_logger import notify
 
+from core_components.datagram import Datagram, DatagramIterator
 
-import socket
-import select
-import struct
-import asyncio
 
-from panda3d.core import Datagram, DatagramIterator
-from . import msgTypes
-from core_components.faithful_logger import notify
+
+
 
 
 class MDClient:
