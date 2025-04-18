@@ -28,6 +28,7 @@ Memory Safety: When working in lower-level modules or with performance-critical 
 Authentication & Authorization: Ensure that administrative and AI-level commands are not accessible by unauthorized clients.
 
 Logging: Avoid logging sensitive information. Use structured logging and redact where appropriate.
+
 Bad:
 
 logger.info(f"User password: {password}")
